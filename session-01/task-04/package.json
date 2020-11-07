@@ -3,6 +3,7 @@
     "test": "mocha "
   },
   "dependencies": {
+    "fs": "0.0.1-security",
     "mocha": "^8.2.1"
   }
 }

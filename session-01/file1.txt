@@ -1,0 +1,2 @@
+Test meines Programms zum Auslesen der Indizes für Wörter in einem File.
+Das ist der erste Test.

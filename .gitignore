@@ -130,3 +130,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.vscode
+session-01/task-03/out
+session-01/task-04/node_modules
