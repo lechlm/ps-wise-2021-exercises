@@ -6,6 +6,7 @@ const STOP_FREQUENCY_LIMIT = 100;
 
 function removePunctuation(word) {
     word = word.replace(",", "");
+    word = word.replace("\r", "");
     if(word != "e.g." && word != "i.e.")
         word = word.replace(".", "");
 
@@ -31,10 +32,9 @@ module.exports = function(file_path) {
 
             if(data.charAt(i)=="\n")
                 continue;
-        } else {
-            line_size_count++;
         }
         
+        line_size_count++;
         line = line + data.charAt(i);
     }
     lines.push(line);

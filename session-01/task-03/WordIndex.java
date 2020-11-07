@@ -49,6 +49,7 @@ public class WordIndex {
             String[] words = line.split(" ");
             for (String word : words) {
                 word = word.replaceAll(",", "");
+                word = word.replaceAll("\r", "");
                 if (!word.equals("e.g.") && !word.equals("i.e."))
                     word = word.replaceAll("\\.", "");
 
